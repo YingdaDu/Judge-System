@@ -1,6 +1,6 @@
-export class Problem{
+export class Problem {
   id: number;
   name: string;
   desc: string;
-  difficulty:string;
+  difficulty: string;
 }

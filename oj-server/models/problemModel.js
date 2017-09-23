@@ -1,10 +1,11 @@
-var mongoose  = require("mongoose");
-var ProblemSchema = mongoose.Schema({
-  id:Number,
-  name:String,
-  desc:String,
-  difficulty:String
+var mongoose = require("mongoose");
+var problemSchema = mongoose.Schema({
+	id: Number,
+	name: String,
+	desc: String,
+	difficulty: String
 });
-var problemModel = mongoose.model("ProblemModel", ProblemSchema);
+
+var problemModel = mongoose.model("problemModel", problemSchema);
 
 module.exports = problemModel;

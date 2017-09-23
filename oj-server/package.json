@@ -2,18 +2,19 @@
   "name": "oj-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
-  "author": "Yingda Du",
+  "author": "Ting-Hsuan Lin",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
-    "mongoose": "^4.8.6",
-    "node-rest-client": "^3.0.7",
+    "mongoose": "^4.9.8",
+    "node-rest-client": "^3.1.0",
     "redis": "^2.7.1",
-    "socket.io": "^1.7.3"
+    "socket.io": "^2.0.1"
   }
 }
