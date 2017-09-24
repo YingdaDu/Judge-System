@@ -1,3 +1,7 @@
-oj-client/node_modules
-oj-server/node_modules
+oj-client/node_modules/
+oj-server/node_modules/
 public/
+lib/
+include/
+bin/
+executor/tmp
