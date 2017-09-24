@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Yingda Du",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.0",

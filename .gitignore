@@ -5,3 +5,5 @@ lib/
 include/
 bin/
 executor/tmp
+.Python
+pip-selfcheck.json

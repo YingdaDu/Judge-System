@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER tangleiwork@gmail
+MAINTAINER yingda43@gmail.com
 
 RUN apt-get update
 RUN apt-get install -y gcc

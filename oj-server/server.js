@@ -12,14 +12,14 @@ var socketService = require('./services/SocketService.js')(io);
 
 mongoose.connect("mongodb://dbuser:dbpassword@ds147034.mlab.com:47034/onlinejudge");
 
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, '/../public')));
 
 app.use('/', indexRouter);
 app.use("/api/v1", restRouter);
 
 app.use(function(req, res) {
     // send index.html to start client side
-    res.sendFile("index.html", { root: path.join(__dirname, '../public/') });
+    res.sendFile("index.html", { root: path.join(__dirname, '/../public/') });
 });
 
 
