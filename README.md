@@ -1,7 +1,6 @@
 Collaborative Online Judge System
 =========
-
-#Overview
+## Overview
 
 *   Implemented a web-based collaborative code editor which supports multiple user editing simultaneously
 *  Developed a  web application with Angular2 for frontend, OAuth for authentication, NodeJS for backend and MongoDB for database
@@ -18,7 +17,7 @@ After authentication
 Edit page
 ![image1](https://s3.amazonaws.com/onlinejudge112/image/s3.png)
 
-#How to run
+## How to run 
 
 ### Installation 
 1. Install NodeJs:
